@@ -135,10 +135,10 @@ int main(void)
   {
 	  // Test: Ustaw 1.0 A, poczekaj 5 sekund
 	  // Wyjście A3 na devboardzie brązowy i GND niebieski
-	        Set_CC_Limit(0.0f);
+	        Set_CC_Limit(2.0f);
 	        HAL_Delay(3000);
 
-	        Set_CC_Limit(0.1f);
+	        /*Set_CC_Limit(0.1f);
 	       	HAL_Delay(3000);
 
 	        Set_CC_Limit(0.2f);
@@ -159,8 +159,8 @@ int main(void)
 	        Set_CC_Limit(0.7f);
 	       	HAL_Delay(3000);
 
-	        Set_CC_Limit(0.8f);
-	       	HAL_Delay(3000);
+	        Set_CC_Limit(2.8f);
+	       	HAL_Delay(3000);*/
 
     /* USER CODE END WHILE */
 
